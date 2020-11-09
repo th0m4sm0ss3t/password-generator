@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@700&family=Noto+Sans&display=swap" rel="stylesheet">
+        <title>Password generator</title>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <h1 class="title">Password generator</h1>
+            <div class="passwordfieldDiv">
+                <input class="passwordfieldDiv__input" type="text" placeholder="" readonly>
+                <div class="passwordfieldDiv__copy">
+                    <p class="passwordfieldDiv__copy__p">Copy</p>
+                    <svg class="passwordfieldDiv__copy__svg" fill="none" viewbox="0 0 24 24" height="17" width="17" xmlns="http://www.w3.org/2000/svg">
+                        <path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" d="M2 4C2 2.89543 2.89543 2 4 2H14C15.1046 2 16 2.89543 16 4V8H20C21.1046 8 22 8.89543 22 10V20C22 21.1046 21.1046 22 20 22H10C8.89543 22 8 21.1046 8 20V16H4C2.89543 16 2 15.1046 2 14V4ZM10 16V20H20V10H16V14C16 15.1046 15.1046 16 14 16H10ZM14 14H4V4L14 4V14Z" fill="#24262B"></path>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="buttonPassword">
+                <p class="buttonPassword__p">Generate Password </p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="buttonPassword__svg icon icon-tabler icon-tabler-key" width="25" height="25" view-box="0 0 24 24" stroke-width="1.5" stroke="#24262B" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <circle cx="8" cy="15" r="4" />
+                <line x1="10.85" y1="12.15" x2="19" y2="4" />
+                <line x1="18" y1="5" x2="20" y2="7" />
+                <line x1="15" y1="8" x2="17" y2="10" />
+                </svg>
+            </div>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
